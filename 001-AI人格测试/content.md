@@ -17,11 +17,7 @@ DeepSeek 的回答让我破防了
 
 你们猜是哪一个？
 
-测完觉得意犹未尽的话，可以去试试 [AISoul]
-用AI分析你的情感灵魂
-看看你的灵魂在恋爱里是什么"型号"
-
-🔗 soul.nihaofengzi.top
-（链接在评论区）
+soul.nihaofengzi.top
+AI徜徉灵魂实验室
 
 你们觉得哪个AI的回答最戳你？
