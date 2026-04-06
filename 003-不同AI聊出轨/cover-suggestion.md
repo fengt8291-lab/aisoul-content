@@ -1,2 +1,2 @@
-封面文案：同一个问题问了ChatGPT和DeepSeek
-副标题：DeepSeek的回答也太清醒了
+封面标题（主标题）：同一个问题问了ChatGPT和DeepSeek
+封面副标题：DeepSeek的回答让我想了很久
