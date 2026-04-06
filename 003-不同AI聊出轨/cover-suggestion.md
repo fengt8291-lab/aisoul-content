@@ -1,0 +1,2 @@
+封面文案：同一个问题问了ChatGPT和DeepSeek
+副标题：DeepSeek的回答也太清醒了
