@@ -17,7 +17,7 @@ class RealisticChatGenerator:
         self.scale = width / 1080  # 响应式缩放
         
     def create_chatgpt_screenshot(self, messages):
-        """生成ChatGPT风格截图"""
+        """生成ChatGPT风格截图 - ChatGPT官方绿黑配色"""
         return self._create_screenshot(
             messages,
             platform="chatgpt",
@@ -29,41 +29,41 @@ class RealisticChatGenerator:
             ai_text=(255, 255, 255),
             border_color=(68, 68, 68),
             header_text="ChatGPT",
-            logo_color=(16, 163, 74),
+            logo_color=(16, 163, 74),  # ChatGPT官方绿
             show_logo=True
         )
     
     def create_deepseek_screenshot(self, messages):
-        """生成DeepSeek风格截图"""
+        """生成DeepSeek风格截图 - DeepSeek官方蓝色配色"""
         return self._create_screenshot(
             messages,
             platform="deepseek",
-            header_color=(14, 14, 14),
+            header_color=(1, 45, 86),  # DeepSeek深蓝
             user_bubble=(0, 0, 0),
-            ai_bubble=(38, 38, 38),
-            bg_color=(14, 14, 14),
+            ai_bubble=(10, 71, 145),   # DeepSeek蓝
+            bg_color=(7, 21, 45),       # 深蓝背景
             user_text=(255, 255, 255),
             ai_text=(255, 255, 255),
-            border_color=(48, 48, 48),
+            border_color=(20, 91, 186), # 亮蓝边框
             header_text="DeepSeek",
-            logo_color=(255, 189, 46),
+            logo_color=(59, 130, 246),  # DeepSeek官方蓝 #3B82F6
             show_logo=True
         )
     
     def create_claude_screenshot(self, messages):
-        """生成Claude风格截图"""
+        """生成Claude风格截图 - Claude官方橙色调"""
         return self._create_screenshot(
             messages,
             platform="claude",
-            header_color=(255, 255, 255),
+            header_color=(255, 247, 237),  # 暖白
             user_bubble=(26, 26, 26),
-            ai_bubble=(250, 250, 250),
-            bg_color=(252, 252, 252),
+            ai_bubble=(255, 245, 238),    # 奶油白
+            bg_color=(255, 252, 250),     # 米白
             user_text=(255, 255, 255),
-            ai_text=(0, 0, 0),
-            border_color=(235, 235, 235),
+            ai_text=(50, 50, 50),
+            border_color=(230, 220, 210),
             header_text="Claude",
-            logo_color=(255, 189, 46),
+            logo_color=(255, 107, 53),    # Claude官方橙 #FF6B35
             show_logo=True
         )
     
